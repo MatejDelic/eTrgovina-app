@@ -1,0 +1,26 @@
+.navigation {
+	display: flex;
+	/*background-color: rgb(73, 146, 115); */
+	background-color: rgb(118, 149, 173);
+	box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 );
+	justify-content: flex-end;
+
+	/*overflow: hidden;*/
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+
+.push {
+    margin-right: auto;
+}
+
+@media screen and (max-width: 700px) {
+	.navigation {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		position: relative;
+	}
+}
